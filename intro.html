@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome!</title>
+    </head>
+    <body>
+        <center>
+        <h1>Welcome!</h1>
+        <input type=button onClick="location.href='guide.html'" value='Click here to continue'>
+        <script>
+            function openTab(url) {
+			const link = document.createElement('a');
+			link.href = url;
+			link.target = '_blank';
+			document.body.appendChild(link);
+			link.click();
+			link.remove();
+            }
+        </script>
+        </center>
+    </body>
+</html>
